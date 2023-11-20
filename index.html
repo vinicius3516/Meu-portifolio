@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style\global.css" />
+  </head>
+  <body>
+    <nav class="navegador">
+      <div class="logo">
+        <img src="Imagens\DEV_VINNY (1000 x 300 px).svg" alt="logo-principal" />
+      </div>
+
+      <div class="menu">
+        <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+      </div>
+
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobremim">Sobre mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="container_hero" id="inicio">
+        <div class="titulo-hero">
+          <h1>Desenvolvedor</h1>
+          <div>
+            <div class="icones">
+              <ul>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/costaviny09/"
+                    ><img
+                      src="Imagens\logo-instagram.png"
+                      alt="incone-instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://github.com/vinicius3516"
+                    ><img src="Imagens\logo-gtihub.png" alt="incone-instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/vinicius-costa-frontend/"
+                    ><img
+                      src="Imagens\logo-linkedin.png"
+                      alt="incone-instagram"
+                  /></a>
+                </li>
+              </ul>
+              <h2>Front-end</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="logo_efeito">
+          <img
+            class="circulo-efeito"
+            src="Imagens\CIRCULO-HERO.svg"
+            alt="efeito"
+          />
+          <img
+            class="logo_hero"
+            src="Imagens\DEV_VINNY (1000 x 300 px).svg"
+            alt="logo"
+          />
+        </div>
+      </section>
+
+      <section class="sobre_mim" id="sobremim">
+        <h2>Sobre mim</h2>
+        <div class="descriao">
+          <img src="Imagens\INDICADOR_SOBRE MIM.png" alt="indicador" />
+          <div class="paragrafo-descricao">
+            <p>
+              Olá, meu nome é Vinícius Costa, estou totalmente empenhado no
+              processo de aprendizagem para me tornar um desenvolvedor
+              front-end.
+            </p>
+            <p>
+              Atualmente, estou matriculado no curso de Análise e
+              Desenvolvimento de Sistemas (ADS) com especialização em
+              desenvolvimento web.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projetos" id="projetos">
+        <h2>Projetos</h2>
+        <div class="card-projetos">
+          <a href="#"><img src="Imagens\PROJETO 5.png" alt="projetos" /></a>
+          <a href="#"><img src="Imagens\PROJETO 5.png" alt="projetos" /></a>
+          <a href="#"><img src="Imagens\PROJETO 5.png" alt="projetos" /></a>
+        </div>
+      </section>
+
+      <section class="habilidades" id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="container-habili">
+          <div>
+            <h3>HTML, CSS e JavaScript</h3>
+            <p>
+              Essas três ferramentas desempenham um papel fundamental no
+              desenvolvimento web, trabalhando em conjunto para adicionar
+              estilos e funcionalidades aos sites.
+            </p>
+          </div>
+          <div>
+            <h3>Git e GitHube</h3>
+            <p>
+              O Git é usado para estabelecer o controle de versão de um projeto,
+              integrando-se ao GitHub, uma plataforma de desenvolvimento
+              colaborativo que hospeda projetos na nuvem, tornando o
+              armazenamento e a administração do código mais fácil.
+            </p>
+          </div>
+          <div>
+            <h3>Figma UI/UX</h3>
+            <p>
+              O Figma é uma poderosa ferramenta de design de interface do
+              usuário (UI) e experiência do usuário (UX) utilizada para criar
+              protótipos interativos, designs de aplicativos e sites, bem como
+              para colaboração em tempo real entre equipes de design.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato">
+      <h2>Contato</h2>
+      <div class="container-footer">
+        <div>
+          <h3>E-mail para contato</h3>
+          <p>devvinny6292@gmail.com</p>
+        </div>
+
+        <div>
+          <h3>Adicione nas redes</h3>
+          <ul>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/costaviny09/"
+                ><img src="Imagens\logo-instagram.png" alt="incone-instagram"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/vinicius3516"
+                ><img src="Imagens\logo-gtihub.png" alt="incone-github"
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/vinicius-costa-frontend/"
+                ><img src="Imagens\logo-linkedin.png" alt="incone-linkedin"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div>
+      <p class="diretrises">
+        © 2023 / Vinicius Costa / Todos os direitos reservados
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
