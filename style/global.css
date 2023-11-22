@@ -30,7 +30,6 @@ body {
   overflow-x: hidden;
 }
 
-
 /* Barra de Navegação */
 
 .navegador {
@@ -182,7 +181,7 @@ body {
 
   & .circulo-efeito {
     width: 40rem;
-    animation: girar 60s linear infinite;
+    animation: girar 70s linear infinite;
   }
 
   & .logo_hero {
@@ -218,7 +217,7 @@ body {
   margin-top: 10rem;
   width: 100%;
 
-  & p{
+  & p {
     font-size: 2.3rem;
   }
 }
@@ -260,6 +259,46 @@ body {
   justify-content: center;
   gap: 6rem;
   margin-top: 6rem;
+
+  & .projetos {
+    background-color: #00d7df;
+    width: 34rem;
+    height: 40rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    color: #050505;
+
+    & img {
+      width: 30rem;
+      height: 20rem;
+    }
+  }
+}
+
+.projetos.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.descrição {
+  padding: 2rem 2rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 15rem;
+  border-bottom: 5px solid #070707;
+
+  & span {
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  & p {
+    font-size: 2rem;
+    font-weight: 500;
+  }
 }
 
 /* habilidades */
@@ -425,10 +464,14 @@ footer {
   }
 
   .projetos {
-    padding: 5rem 5rem 0;
+    padding: 5rem 4rem 0;
 
     & .card-projetos {
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 3rem;
     }
   }
 
