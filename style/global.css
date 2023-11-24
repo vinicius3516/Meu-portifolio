@@ -257,13 +257,13 @@ body {
 .card-projetos {
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  gap: 4rem;
   margin-top: 6rem;
 
   & .projetos {
     background-color: #00d7df;
     width: 34rem;
-    height: 40rem;
+    height: 47rem;
     border-radius: 0.5rem;
     padding: 2rem;
     color: #050505;
@@ -275,29 +275,39 @@ body {
   }
 }
 
+.projetos img:hover {
+  width: 30.3rem;
+  height: 20.3rem;
+}
+
 .projetos.card {
   display: flex;
   flex-direction: column;
 }
 
 .descrição {
-  padding: 2rem 2rem;
-  height: 20rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  height: 15rem;
+  gap: 3rem;
+  height: 23rem;
   border-bottom: 5px solid #070707;
 
-  & span {
+  & h3 {
     font-size: 2rem;
     font-weight: 900;
     text-transform: uppercase;
   }
 
   & p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
+  }
+
+  & h4 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
   }
 }
 
