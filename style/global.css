@@ -314,11 +314,17 @@ body {
 /* habilidades */
 
 .habilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
   padding: 10rem 0;
-  background-color: #100f0f;
+  background-color: #070707;
 
   & h2 {
     text-align: center;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -326,20 +332,42 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 15rem 15rem;
-  gap: 5rem;
+  padding: 0rem 15rem;
+}
 
-  & h3 {
-    color: #00d7df;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
+.habili h3 {
+  color: #00d7df;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  border: 4px solid #00d7df;
+  border-radius: 3rem;
+  padding: 2rem;
+  cursor: pointer;
+}
 
-  & p {
-    color: white;
-    font-size: 1.8rem;
-    line-height: 4rem;
-  }
+.habili p {
+  color: white;
+  font-size: 1.9rem;
+  line-height: 4rem;
+  border-left: 2px solid #00d7df;
+  border-bottom: 2px solid #00d7df;
+  border-right: 2px solid #00d7df;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  padding: 5rem;
+  height: 0.1rem;
+  margin-top: -5rem;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.habili.ativo p {
+  height: fit-content;
+  opacity: 1;
+  overflow: visible;
+  padding: 7rem;
+  margin-bottom: 2rem;
 }
 
 /* Rodape */
