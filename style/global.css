@@ -16,7 +16,7 @@ img {
 }
 
 body {
-  background-color: #050505;
+  background-color: #0c0c0c;
 }
 
 h2 {
@@ -34,7 +34,7 @@ body {
 
 .navegador {
   position: fixed;
-  background-color: rgb(4, 4, 4, 1);
+  background-color: #080808;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -206,7 +206,7 @@ body {
 /* Main - sobre mim */
 
 .sobre_mim {
-  background-color: #070707;
+  background-color: #100f0f;
   color: white;
   display: flex;
   flex-direction: column;
@@ -315,7 +315,7 @@ body {
 
 .habilidades {
   padding: 10rem 0;
-  background-color: #070707;
+  background-color: #100f0f;
 
   & h2 {
     text-align: center;
