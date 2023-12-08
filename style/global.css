@@ -502,7 +502,7 @@ footer {
   }
 
   .projetos {
-    padding: 5rem 4rem 0;
+    padding: 5rem  0;
 
     & .card-projetos {
       flex-direction: column;
@@ -514,12 +514,21 @@ footer {
   }
 
   .habilidades {
-    padding: 5rem 0 5rem;
+    padding: 9rem 0 3rem;
+    gap: 0rem;
 
     & .container-habili {
       padding: 5rem 5rem 0;
-      gap: 2rem;
+      gap: 0;
     }
+
+    & h3{
+      font-size: 1.9rem;
+    }
+  }
+
+  .habili.ativo p{
+    padding: 6rem 4rem 5rem;
   }
 
   footer {
@@ -543,4 +552,25 @@ footer {
   .diretrises {
     font-size: 1.2rem;
   }
+}
+
+@media screen and (max-width: 380px){
+  .habilidades {
+    padding: 9rem 0 3rem;
+    gap: 0rem;
+
+    & .container-habili {
+      padding: 5rem 3rem 0;
+      gap: 0;
+    }
+
+    & h3{
+      font-size: 1.8rem;
+    }
+  }
+
+  .habili.ativo p{
+    padding: 6rem 3rem 5rem;
+  }
+
 }
